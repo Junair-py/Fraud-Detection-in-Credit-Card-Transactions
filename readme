@@ -1,0 +1,37 @@
+Classificação de Reclamações de Consumidores
+Introdução
+Este projeto tem como objetivo analisar um conjunto de dados contendo reclamações de consumidores e desenvolver um modelo de classificação de texto que categorize essas reclamações em diferentes tipos de produtos. A classificação automatizada dessas reclamações pode ajudar empresas a identificar rapidamente problemas com produtos ou serviços específicos e melhorar a eficiência no atendimento ao cliente.
+
+Conjunto de Dados
+O conjunto de dados utilizado neste projeto consiste em reclamações de consumidores, cada uma contendo:
+
+Texto Descritivo da Reclamação: O conteúdo textual detalhado da reclamação feita pelo consumidor.
+Categoria do Produto: A categoria de produto à qual a reclamação está associada.
+Métodos Utilizados
+Para desenvolver o modelo de classificação, foram utilizadas técnicas de Processamento de Linguagem Natural (NLP) e aprendizado de máquina. As etapas principais incluem:
+
+Pré-processamento de Dados:
+
+Remoção de valores ausentes
+Limpeza e normalização do texto
+Divisão dos Dados:
+
+Separação dos dados em conjuntos de treino e teste
+Treinamento do Modelo:
+
+Utilização do algoritmo Naive Bayes para treinar o modelo de classificação
+Questões a Serem Respondidas
+Qual é a acurácia do modelo de classificação na tarefa de categorização de reclamações?
+Como o desempenho do modelo varia para diferentes categorias de produtos?
+Qual é a distribuição das predições do modelo em relação às categorias de produtos?
+Quais são as palavras mais importantes para a classificação de cada categoria de produto?
+O modelo é capaz de generalizar bem para novos dados?
+Métricas de Avaliação
+As principais métricas de avaliação utilizadas incluem:
+
+Acurácia: Proporção de predições corretas.
+Matriz de Confusão: Para avaliar o desempenho em cada categoria.
+Relatório de Classificação: Incluindo precisão, recall e F1-score para cada categoria.
+Interpretação de Resultados: Análise das palavras mais importantes para a classificação e capacidade de generalização.
+Conclusão
+O modelo de classificação desenvolvido apresentou uma acurácia geral de aproximadamente 85%. A precisão variou entre as categorias de produtos, sendo que "Produtos Eletrônicos" apresentou uma acurácia de cerca de 90%, enquanto "Serviços Financeiros" teve uma acurácia em torno de 80%. As palavras mais importantes para cada categoria foram identificadas usando o TF-IDF, e o modelo demonstrou uma capacidade razoável de generalização para novos dados.
